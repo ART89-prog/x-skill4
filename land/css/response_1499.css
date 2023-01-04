@@ -1,0 +1,453 @@
+
+@media print,
+(max-width: 1499px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+    }
+
+
+    .cont
+    {
+        padding: 0 32px;
+    }
+
+
+
+    .key-features__badge-inner .badge
+    {
+        font-size: 27px;
+        line-height: 31px;
+
+        height: calc(100% - (100% - 56px)*var(--progress, 0));
+    }
+
+    .key-features--automation .badge
+    {
+        width: calc(100% + 12rem - (100% + 12rem - 280px)*var(--progress, 0));
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 72px;
+
+        border-radius: 80px;
+    }
+
+
+    .tabs button
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        padding: 12px 26px 14px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 60px;
+    }
+
+
+    .all_link a
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        padding: 20px 40px 22px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 32px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding: 28px 88px 28px 32px;
+
+        border-width: 12px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 22px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 24px;
+
+        width: 15px;
+        height: 24px;
+    }
+
+
+    .accordion_item .data
+    {
+        font-size: 18px;
+        line-height: 160%;
+
+        padding: 24px 32px 32px 44px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 56px;
+    }
+
+
+    .block_head .pre_title
+    {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: 160%;
+    }
+
+
+    .block_head .desc,
+    .block_head.center .desc
+    {
+        width: 1096px;
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 19px;
+
+        height: 70px;
+        padding: 0 29px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        height: 70px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+   
+    .first_section-info {
+        width: calc(100% - 540px);
+    }
+    .first_section-subtitle {
+        font-size: 24px;
+    }
+    .first_section-text {
+        font-size: 20px;
+    }
+    .first_section-img:not(.bg) {
+        width: 390px;
+        margin-left: 70px;
+    }
+    .first_section-img .bg {
+        width: 501px;
+        height: 638px;
+        left: -65px;
+    }
+
+
+
+    .advantages .cont {
+        flex-direction: column;
+    }
+    .advantages_wrap {
+        width: 100%;
+    }
+    .advantages .block_head {
+        max-width: 100%;
+    }
+    .advantages,
+    .why,
+    .lessons,
+    .avail,
+    .benefits,
+    .modes,
+    .price,
+    .stages,
+    .demonstration,
+    .demonstration-block,
+    .callback,
+    .course,
+    .invitation,
+    .methods,
+    .invite,
+    .scenario {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+
+
+
+    .callback {
+        padding-bottom: 0 !important;
+    }
+
+    .stages_items {
+        margin-left: -25px;
+        margin-bottom: -40px;
+    }
+    .stages_items > * {
+        width: calc(100%/3 - 25px);
+        margin-left: 25px;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+    .stages_item-info {
+        padding: 15px 0px 5px 0px;
+    }
+    .stages_item-title {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .stages_item-text {
+        font-size: var(--font_size);
+        margin-top: 12px;
+    }
+
+
+
+    .why_items > * {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .why_item_text {
+        text-align: center;
+    }
+
+
+    .lessons_img {
+        width: 530px;
+        margin-right: 0px;
+    }
+    .lessons_img .bg {
+        top: 0;
+        width: 530px;
+        height: 411px;
+    }
+    .lessons_items {
+        width: calc(100% - 560px);
+    }
+    .lessons_item-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 7px;
+    }
+
+
+    .avail_item {
+        justify-content: flex-start;
+    }
+
+
+
+    .callback_action {
+        display: none;
+    }
+    
+
+
+
+    .invite_right {
+        width: 560px;
+    }
+    .invite_box {
+        padding: 20px;
+    }
+    .invite_box-text {
+        font-size: 17px;
+        line-height: 170%;
+        padding-left: 20px;
+    }
+    .invite_right .bg {
+        top: -80px;
+        width: 479px;
+        height: 403px;
+    }
+    .invite_box-name {
+        font-size: 20px;
+    }
+    .invite_box-bottom {
+        margin-top: 30px;
+    }
+    .invite .block_head {
+        width: calc(100% - 600px);
+    }
+
+
+    .scenario_text {
+        line-height: 160%;
+        margin-top: 20px;
+    }
+
+
+    .modes_item-title {
+        font-size: 24px;
+    }
+
+
+
+    .demonstration_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .demonstration_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .demonstration_item-title {
+        margin-bottom: 7px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .demonstration_item:nth-child(4) .video_link {
+        width: 298px;
+        flex-shrink: 0;
+        height: 451px;
+    }
+    .demonstration_item:nth-child(3) .video_link,
+    .demonstration_item:nth-child(5) .video_link {
+        width: 244px;
+        flex-shrink: 0;
+        height: 378px;
+        margin-top: 110px;
+    }
+    .demonstration_item:nth-child(2) .video_link,
+    .demonstration_item:nth-child(6) .video_link {
+        width: 212px;
+        flex-shrink: 0;
+        height: 321px;
+        margin-top: 30px;
+    }
+    .demonstration_item:nth-child(1) .video_link,
+    .demonstration_item:nth-child(7) .video_link {
+        width: 211px;
+        flex-shrink: 0;
+        height: 319px;
+        margin-top: 100px;
+    }
+
+    .demonstration_subscribe {
+        margin-top: 100px;
+    }
+
+
+
+    
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 72px 0 52px;
+    }
+
+
+
+    footer .logo
+    {
+        width: calc(50% - 48px);
+    }
+
+    footer .logo img
+    {
+        width: 200px;
+    }
+
+
+    footer .slogan
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        width: calc(50% - 48px);
+    }
+
+
+    footer .text
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        width: calc(50% - 48px);
+        margin-top: 52px;
+    }
+
+
+    footer .email,
+    footer .phone
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        width: calc(50% - 48px);
+        margin-top: 40px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-top: 40px;
+    }
+}

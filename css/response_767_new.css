@@ -1,0 +1,692 @@
+@media print,
+(max-width: 767px) {
+
+    :root
+    {
+        --font_size2: 16px;
+    }
+
+/* ABOUT START */
+
+    .fix ul li {
+        padding-left: 40px;
+    }
+     .fix ul li .icon {
+        top: 0px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .breadcrumbs a, 
+    .breadcrumbs .sep, 
+    .breadcrumbs .current {
+        font-size: 15px;
+    }
+    .mt84 {
+        margin-top: 48px;
+    }
+    .block {
+        margin-top: 48px;
+    }
+    .case_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+        justify-content: center;
+    }
+    .case_items > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .reason_logo {
+        display: none;
+    }
+    .reason_wrap {
+        padding: 25px;
+    }
+    .registry_wrap {
+        flex-direction: column-reverse;
+        padding: 25px 0;
+    }
+    .registry ul li .icon {
+        width: 32px;
+        height: 32px;
+        top: 0px;
+    }
+    .registry ul li {
+        font-size: var(--font_size2);
+    }
+    .reason ul li {
+        font-size: var(--font_size2);
+    }
+    .registry .data {
+        margin-left: 0px;
+    }
+    .reason .block_head {
+        margin-bottom: 30px;
+    }
+
+/* ABOUT END */
+
+
+/* CAREER START */
+
+    .career_info .link {
+        font-size: var(--font_size2);
+        padding: 11px 17px 14px;
+    }
+    .career_info .image {
+        width: 390px;
+    }
+    .career_info .image .bg {
+        top: -148px;
+        left: -18px;
+        width: 410px;
+        height: 705px;
+    }
+    .benefits_items {
+        margin-bottom: -50px;
+    }
+    .benefits_items > * {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .benefits_item:before {
+        font-size: 39px;
+        line-height: 60px;
+        top: -28px;
+        left: 25px;
+        width: 60px;
+        height: 60px;
+    }
+    .benefits_item-name {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .benefits_item {
+        padding: 50px 25px 25px;
+    }
+    .vacancy-search ul li {
+        font-size: var(--font_size2);
+        line-height: 140%;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .vacancy-search ul li .icon {
+        top: 0px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .vacancy-search .form input {
+        height: 55px;
+        margin-bottom: 15px;
+        padding: 0 20px;
+    }
+      .vacancy.accordion .data .link {
+        font-size: var(--font_size2);
+        padding: 11px 17px 14px; 
+    }
+
+
+/* CAREER END */
+
+
+/* PARTNERS START */
+
+    .partners_info .image {
+        width: 415px;
+    }
+    .partners_info .image .bg {
+        width: 402px;
+        height: 656px;
+        left: 0px;
+        top: -140px;
+    }
+    .partners-block_information {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .partners-block_information > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .partners-block .link {
+        font-size: 20px;
+        width: 380px;
+    }
+    .partners-block_item .head img {
+        display: none;
+    }
+    .partners-block .head {
+        padding: 20px;
+    }
+    .partners .vacancy-search .block_head .title {
+        font-size: 28px;
+    }
+    .partners .vacancy-search .block_head {
+        margin-bottom: 10px;
+    }
+    .partners-block_info {
+        margin-right: 0;
+    }
+    .partners_info .vacancy-search ul li {
+        margin-bottom: 23px;
+    }
+
+/* PARTNERS END */
+
+
+
+/* CONTACTS START */
+
+    .contacts_box-information{
+        flex-direction: column;
+    }
+    .contacts_box-info {
+        margin-right: 0px;
+    }
+    .contacts_box-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .contacts_info .vacancy-search textarea {
+        padding: 20px;
+        font-size: var(--font_size2);
+    }
+    .contacts_box-information {
+        padding-bottom: 25px;
+    }
+    .contacts_box {
+        margin-bottom: 25px;
+    }
+    .contacts_info .vacancy-search textarea {
+        margin-bottom: 25px;
+    }
+   
+
+/* CONTACTS END */
+
+
+
+/* BLOG START */
+
+    .interesting-articles .row .list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 30px;
+    }
+
+/* BLOG END */
+
+
+/* POST START */
+
+    .post_info .head .image .title {
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        line-height: 129%;
+        max-width: 600px;
+    }
+    .post_info .head .image .date {
+        bottom: 15px;
+        left: 15px;
+        padding: 1px 13px;
+        font-size: 14px;
+    }
+    .post_info .head .image .author {
+        bottom: 14px;
+        right: 14px;
+        font-size: 14px;
+    }
+    .post_info .head .author-photo {
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .post .slider img {
+        border-radius: 15px;
+        height: 220px;
+    }
+    .post .slider {
+        margin-bottom: 25px;
+    }
+    .post .reason ul li {
+        margin-right: 0;
+        padding-left: 50px;   
+    }
+    .post .reason .block_head {
+        margin-bottom: 19px;
+    }
+    .post .reason ul li .icon {
+        width: 32px;
+        height: 32px;
+    }
+    .post .reason .link {
+        padding: 15px 15px 18px;
+    }
+
+/* POST END */
+
+
+/* COURSES START */
+
+    .courses .order ul li {
+        font-size: 16px;
+        line-height: 140%;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .courses .order ul li .icon {
+        top: 0px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .courses .order .image {
+        width: 400px;
+    }
+    .order .image .bg {
+        top: -9px;
+        left: -4px;
+        width: 426px;
+        height: 439px;
+    }
+    .courses .order {
+        margin-bottom: 50px;
+    }
+    .courses .video-block .video_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .courses .video-block .video_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .team .block_head .desc {
+        font-size: var(--font_size2);
+    }
+
+/* COURSES END */
+
+
+
+/* ZACHEM START */
+
+    .zachem .contacts_wrap {
+        flex-direction: column;
+    }
+    .zachem .contacts_wrap {
+        padding-bottom: 30px;
+    }
+    .zachem .contacts_info .social {
+        margin-top: 30px;
+    }
+    .examples .video_link {
+        width: 100%;
+    }
+    .examples_item-img {
+        width: 100%;
+    }
+    ol li:before {
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        font-size: 21px;
+        line-height: 40px;
+        border-radius: 10px;
+    }
+    ol li {
+        padding-left: 60px;
+    }
+    .zachem .contacts_box {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .zachem .contacts_box:last-child {
+        margin-bottom: 0px;
+    }
+    .zachem .partners_info .image {
+        width: 390px;
+        margin: 0 auto;
+    }
+    .zachem .partners_info .image .bg {
+        top: -129px;
+        left: -9px;
+        width: 403px;
+        height: 616px;
+    }
+
+
+/* ZACHEM END */
+
+
+/* SIMULATOR START */
+
+    .numbers-link {
+        margin-top: 30px;
+    }
+    .examples_item-title {
+        font-size: 22px;
+    }
+    .simulator .partners_info .image {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .simulator .partners_info .image .bg {
+        top: -43px;
+        left: -11px;
+        width: 426px;
+        height: 610px;
+    }
+    .simulator .partners_info-box {
+        width: 100%;
+    }
+
+
+/* SIMULATOR END */
+
+
+/* BAZA START */ 
+
+.baza .partners_info .image .bg {
+    top: -172px;
+    left: -9px;
+    width: 403px;
+    height: 616px;
+}
+
+/* BAZA END */ 
+
+
+/* COURSE_MODUL START */ 
+
+.course-modul .partners_info .image .bg {
+    top: -86px;
+    left: -38px;
+    width: 410px;
+    height: 484px;
+}
+
+
+/* COURSE_MODUL END */ 
+
+
+/* PRESENTATION START */
+
+    .presentation .image {
+        width: 400px;
+        height: 225px;
+        margin: 25px auto 0;
+    }
+    .presentation {
+        padding: 30px 0;
+    }
+    .presentation-link_img {
+        width: 45px;
+        height: 56px;
+    }
+    .presentation-link_info {
+        margin-left: 10px;
+    }
+    .presentation-link_info-name {
+        line-height: 120%;
+    }
+
+/* PRESENTATION END */
+
+
+/* GALLERY START */
+
+.gallery_items > * {
+    width: calc(100%);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* GALLERY END */
+
+}
+
+/* HELP START */
+
+    .help .vacancy .accordion_item .head .title {
+        font-size: 18px;
+    }
+    .help_info .form_wrap {
+        padding: 20px;
+    }
+    .help_info form input {
+        padding-left: 60px;
+    }
+    .help_info .form_wrap button {
+        left: 30px;
+    }
+    .help .vacancy.vacancy.accordion .data {
+        padding: 0 20px;
+    }
+    .help .vacancy.vacancy.accordion .data a {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+/* HELP END */
+
+
+/* HELP_PAGE START */
+
+    .help-page_info .links {
+        flex-direction: column;
+    }
+    .help-page_info .links a {
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .help-page_info .links a:first-child {
+        margin-top: 0;
+    }
+    .help-page_info .links a span br {
+        display: none;
+    }
+
+
+/* HELP_PAGE END */
+
+
+/* HELP_SEARCH START */
+
+    .help-search .vacancy.accordion .block_head {
+        justify-content: space-between;
+    }
+    .help-search .vacancy.accordion .block_head button img {
+        width: 65px;
+    }
+    .help .vacancy.accordion .data a::after {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+    .help-search .vacancy.accordion .block_head .title {
+        width: calc(100% - 120px);
+    }
+
+
+/* HELP_SEARCH END */
+
+
+
+/* TRAINING START */
+
+    .training4 .training_wrap {
+        flex-direction: column;
+    }
+    .training6 .training_wrap {
+        flex-direction: column;
+    }
+    .training6 .training_quote {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .training8 .training_link, 
+    .training9 .training_link {
+        height: 50px;
+    }
+
+
+/* TRAINING END */
+
+
+/* BLOG-NEW START */
+
+    .blog-new .interesting-articles .row > * {
+        width: 100%;
+    }
+    .pagination a, 
+    .pagination span {
+        width: 40px;
+        height: 40px;
+        font-size: var(--font_size2);
+        border-radius: 10px;
+    }
+    .pagination * + * {
+        margin-left: 10px;
+    }
+    .pagination .prev span:after, 
+    .pagination .next span:after {
+        width: 7px;
+        height: 7px;
+    }
+
+    .blog-search .title {
+        font-size: 26px;
+    }
+
+    .blog-new .articles .article.big{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .row_new{
+        margin-left:0;
+    }
+
+    .blog-new .articles .article.big + .article.big
+    {
+        margin-top: 40px;
+    }
+
+/* BLOG-NEW END */
+
+
+/* BEFORE_AFTER START */
+
+    .before-block_wrapper {
+        padding: 15px;
+        border-radius: 14px;
+    } 
+    .before-block_title {
+        margin-bottom: 10px;
+    }
+    .media-text {
+        font-size: var(--font_size2);
+    }
+    .media-control.media-play {
+        width: 45px;
+        height: 45px;
+    }
+    .media-play-symbol {
+        width: 17px;
+        height: 15px;
+    }
+    .media-pause-symbol {
+        width: 15px;
+        height: 17px;
+    }
+    .before_after .way {
+        transform: translateY(-66px);
+    }
+    .before_after .way .line {
+        height: 150px;
+    }
+    .before-block {
+        width: calc(100% - 45px);
+        margin-right: 45px;
+    }
+    .after-block {
+        margin-top: 25px;
+    }
+
+
+/* BEFORE_AFTER END */
+
+
+
+@media print,
+(max-width: 570px) {
+    .team_items {
+        margin-left: 0px;
+        margin-bottom: -30px;
+    }
+    .team_items > * {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+
+.error404 svg{
+    max-width: 90%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: auto;
+}
+
+.text_404{
+    font-size: 18px;
+    line-height: 140%;
+    /* or 43px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #696984;
+}
+
+.error404 a{
+    background: #BCE01A;
+    border-radius: 80px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #54640D;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+

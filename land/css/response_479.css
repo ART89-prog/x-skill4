@@ -1,0 +1,250 @@
+@media print,
+(max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    /*----------
+        Tabs
+    ----------*/
+
+    .tabs::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tabs button
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+      
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 9px 12px;
+        
+        vertical-align: top;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 156px;
+    }
+    
+    header .logo span {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .pre_title
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding: 9px 20px 10px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: 124%;
+    }
+
+
+    ul li {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 16px;
+
+        height: 52px;
+        padding: 0 19px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 52px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+  
+
+    .first_section-img:not(.bg) {
+        width: 100%;
+    }
+    .first_section-img .bg {
+        width: calc(100% + 53px);
+        left: -17px;
+    }
+
+
+    .modes_item-right {
+        flex-direction: column;
+    }
+    .modes_item-img + .modes_item-img {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+    .course_items > * {
+        width: 280px;
+    }
+
+
+    .why_item_title {
+        font-size: 50px;
+    }
+
+    .price .callback_btn {
+        width: 100%;
+    }
+    .stages .callback_btn {
+        max-width: 100%;
+        width: 100%;
+    }
+    .stages_items {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+    .stages_items > * {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .invitation .callback_btn {
+        width: 100%;
+    }
+    .demonstration_item .video_link .icon {
+        width: 55px;
+        height: 55px;
+    }
+    .demonstration_item .video_link .icon svg {
+        width: 18px;
+        height: 25px;
+    }
+
+    .demonstration-block_items > * {
+        width: 280px;
+    }
+
+
+    .benefits_section-img {
+        width: 315px;
+    }
+
+
+    .modal,
+    .fancybox__content {
+        padding: 15px;
+    }
+
+
+    
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data:before
+    {
+        display: none;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+    }
+
+    footer .logo img
+    {
+        width: 128px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .slogan
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+    footer .text,
+    footer .email,
+    footer .phone
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    footer .text + .text
+    {
+        margin-top: 20px;
+    }
+
+    footer .phone
+    {
+        margin-top: 12px;
+    }
+
+
+
+    .modal_title {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .modal_desc {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}

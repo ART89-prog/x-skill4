@@ -1,0 +1,638 @@
+@media print,
+(max-width: 479px) {
+
+/* ABOUT START */
+    .mt84 {
+        margin-top: 35px;
+    }
+    .about_info .desc p, 
+    .about_info ul li {
+        font-size: 16px;
+    }
+    .block {
+        margin-top: 45px;
+    }
+    .case_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .case_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .author_name {
+        font-size: 17px;
+        line-height: 140%;
+    }
+    .author_post {
+        font-size: 15px;
+        line-height: 135%;
+    }
+    .author_signature {
+        width: 145px;
+        height: 96px;
+    }
+    .director .image img {
+        width: 320px;
+    }
+    .director .image .bg {
+        width: 330px;
+        top: -180px;
+    }
+    .reason_wrap {
+        padding: 20px;
+    }
+    .reason ul li .icon {
+        top: 2px;
+        left: 0;
+        width: 24px;
+        height: 24px;
+    }
+    .reason .block_head {
+        margin-bottom: 20px;
+    }
+    .reason ul li {
+        font-size: var(--font_size2);
+        margin-bottom: 14px;
+        padding-left: 40px;
+    }
+    .team_item-photo {
+        width: 100%;
+        height: 216px;
+        margin-bottom: 11px;
+    }
+    .team_item-name {
+        font-size: 20px;
+        line-height: 139%;
+        margin-bottom: 7px;
+    }
+    .team_item-post {
+        font-size: 17px;
+    }
+    .team_item-photo img {
+        border-radius: 10px;
+    }
+    .registry ul li .icon {
+        width: 24px;
+        height: 24px;
+        top: 7px;
+    }
+    .registry ul li {
+        padding-left: 40px;
+    }
+    .about_info .video_link .icon {
+        width: 45px;
+        height: 45px;
+    }
+    .about_info .video_link .icon svg {
+        width: 16px;
+        height: 20px;
+    }
+    .about_info .video_link::before {
+        width: 121px;
+        height: 121px;
+        right: -10px;
+        bottom: -10px;
+        border-radius: 10px;
+    }
+    .about_info .video_link::after {
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        left: -10px;
+        top: -10px;
+        border-radius: 10px;
+    }
+    .about_info .video_link img {
+        border-radius: 10px;
+    }
+
+/* ABOUT END */
+
+
+
+
+/* CAREER START */
+
+    .career_info .image {
+        width: 100%;
+    }
+    .career_info .image .bg {
+        top: -177px;
+        left: 5px;
+        width: 344px;
+        height: 705px;
+    }
+    .benefits_item-text {
+        font-size: var(--font_size2);
+        line-height: 147%;
+    }
+    .benefits_item:before {
+        font-size: 25px;
+        line-height: 40px;
+        top: -20px;
+        left: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .benefits_item {
+        padding: 30px 15px 20px;
+    }
+      .vacancy.accordion .data .link {
+        width: 100%;
+    }
+    .vacancy-search .block_head .title br {
+        display: none;
+    }
+    .vacancy.accordion .data p {
+        margin-bottom: 10px;
+    }
+
+
+
+
+/* CAREER END */
+
+
+
+/* PARTNERS START */
+
+    .partners_info .image {
+        width: 310px;
+    }
+    .partners_info .image .bg {
+        width: 351px;
+        height: 262px;
+        left: 0px;
+        top: 0;
+    }
+    .partners-block .head .title {
+        font-size: 19px;
+    }
+    .partners-block .head {
+        padding: 15px;
+    }
+    .partners-block .data {
+        padding: 17px;
+    }
+    .partners-block_info .name {
+        font-size: var(--font_size2);
+    }
+    .partners-block_info .text {
+        font-size: var(--font_size2);
+    }
+    .partners-block_information {
+        margin-bottom: -10px;
+    }
+    .partners-block_information > * {
+        margin-bottom: 10px;
+    }
+    .partners-block .link {
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 8px 20px;
+        margin-top: 20px;
+    }
+    .partners .vacancy-search .block_head .title {
+        font-size: 25px;
+    }
+    .partners-block .head {
+        border-left: 7px solid #bce01a;
+    }
+    .partners_info .vacancy-search ul li {
+        margin-bottom: 20px;
+    }
+
+
+/* PARTNERS END */
+
+
+
+/* CONTACTS START */
+
+    .contacts_info .name {
+        font-size: var(--font_size2);
+    }
+    .contacts_info .text {
+        font-size: var(--font_size2);
+    }
+    .contacts_box-info a {
+        font-size: var(--font_size2);
+    }
+    .contacts_box-info span {
+        font-size: var(--font_size2);
+    }
+    .contacts_box-information {
+        padding-bottom: 20px;
+    }
+    .contacts_box {
+        margin-bottom: 20px;
+    }
+    .contacts_info .vacancy-search textarea {
+        margin-bottom: 20px;
+    }
+
+
+/* CONTACTS END */
+
+
+/* BLOG START */
+
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 25px;
+    }
+
+/* BLOG END */
+
+
+/* POST START */
+
+    .post_info .head .image .author {
+        display: none;
+    }
+    .post_info .head .image .title {
+        top: 15px;
+        left: 15px;
+    }
+    .post_info .head .image .date {    
+        padding: 0px 9px;
+        font-size: 12px;
+    }
+    .post_info .head .author-photo {
+        font-size: 14px;
+    }
+    .post .slick-prev, 
+    .post .slick-next {
+        width: 50px;
+        height: 50px;
+    }
+    .post .slick-arrow.slick-prev:before,
+    .post .slick-arrow.slick-next:before {
+        width: 10px;
+        height: 15px;
+    }
+    .post .slick-next {
+        right: -16px;
+    }
+    .post .slick-prev {
+        left: -16px;
+    }
+    .post .slider img {
+        border-radius: 15px;
+        height: auto;
+    }
+    .post_info .video_link .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .post_info .video_link .icon svg {
+        width: 15px;
+        height: 21px;
+    }
+    .post_info .share .social img {
+        width: 38px;
+        height: 38px;
+    }
+    .post_info .video_text {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .post_info .text_block h2 {
+        font-size: 22px;
+        line-height: 130%;
+    }
+    .post_info .text_block p {
+        font-size: 15px;
+    }
+    .post_info .share .text {
+        font-size: 16px;
+    }
+    .post .reason .desc {
+        font-size: var(--font_size2);
+        margin-bottom: 18px;
+        line-height: 140%;
+    }
+    .post .reason .link {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .post .reason ul {
+        margin-bottom: 0;
+    }
+
+/* POST END */
+
+
+/* COURSES START */
+
+    .courses .order ul li .icon {
+        width: 24px;
+        height: 24px;
+        top: 7px;
+    }
+    .courses .order ul li {
+        padding-left: 40px;    
+    }
+    .courses .video-block .video_link .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .courses .video-block .video_link .icon svg {
+        display: block;
+        width: 19px;
+        height: 25px;
+    }
+    .courses .order .image {
+        width: 320px;
+    }
+    .order .image .bg {
+        top: -37px;
+        left: -4px;
+        width: 339px;
+        height: 377px;
+    }
+
+
+/* COURSES END */
+
+
+
+/* ZACHEM START */
+
+    .zachem .partners_info .image {
+        width: 310px;
+    }
+    .zachem .partners_info .image .bg {
+        top: -129px;
+        left: -9px;
+        width: 329px;
+        height: 560px;
+    }
+    .problems ul li {
+        line-height: 130%;
+    }
+    .problems ul {
+        margin-bottom: 0;
+    }
+    .problems ul li {
+        margin-right: 0px;
+        margin-bottom: 15px;
+        padding: 8px 21px;
+    }
+    .examples_item {
+        margin-bottom: 10px;
+    }
+    .examples_item-text {
+        font-size: 14px;
+    }
+    ol li {
+        margin-bottom: 20px;
+    }
+    .zachem .video_link .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .zachem .video_link .icon svg {
+        width: 15px;
+        height: 21px;
+    }
+
+/* ZACHEM END */
+
+
+
+/* SIMULATOR START */
+
+    .numbers ul li {
+        flex-wrap: wrap;
+    }
+    .numbers ul li {
+        font-size: 14px;
+    }
+    .numbers ul li .icon {
+        left: 10px;
+        width: 24px;
+        height: 24px;
+    }
+    .numbers ul li span {
+        margin: 0 auto;
+        font-size: 26px;
+    }
+    .numbers ul li {
+        font-size: var(--font_size2);
+        padding: 12px 12px 12px 45px;
+    }
+    .simulator .partners_info .image {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .simulator .partners_info .image .bg {
+        top: -66px;
+        left: -25px;
+        width: 348px;
+        height: 515px;
+    }
+
+
+/* SIMULATOR END */
+
+
+/* BAZA START */ 
+
+    .baza .partners_info .image .bg {
+        top: -169px;
+        left: -9px;
+        width: 329px;
+        height: 560px;
+    }
+
+/* BAZA END */
+
+
+/* COURSE_MODUL START */ 
+
+.course-modul .partners_info .image .bg {
+        top: -86px;
+        left: -23px;
+        width: 312px;
+        height: 428px;
+    }
+
+
+/* COURSE_MODUL END */ 
+
+
+
+/* PRESENTATION START */
+
+    .presentation .image {
+        width: 300px;
+        height: 168px;
+        margin: 20px auto 0;
+    }
+
+/* PRESENTATION END */
+
+
+/* GALLERY START */
+
+
+/* GALLERY END */
+
+
+/* CALC START */
+    .number_student, .list_parametr, .our_courser .title_choise, .total_sum{
+        padding:20px;
+    }
+    .number_student .title_choise .title, .total_title, .total_sum{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .number_student .tooltip .btn, .number_student .tooltip .btn svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .our_courser input[type=checkbox]{
+        width: 30px;
+        height: 30px;
+    }
+    .our_courser{
+        padding:0;
+    }
+    .list_parametr div{
+        font-size: 15px;
+        line-height: 160%;
+    }
+    .list_parametr div{
+        padding-left:25px;
+    }
+    .list_parametr div:before{
+        height: 12px;
+        width: 12px;
+        top: 6px;
+    }
+
+/* CALC END */
+
+
+/* HELP START */
+
+    .help .vacancy .accordion_item .head .title {
+        font-size: 17px;
+    }
+    .help_info .form_wrap {
+        padding: 15px;
+    }
+    .help_info form input {
+        padding-left: 60px;
+    }
+    .help_info .form_wrap button {
+        left: 30px;
+    }
+    .help .vacancy.vacancy.accordion .data {
+        padding: 0 15px;
+    }
+    .help .vacancy.vacancy.accordion .data a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .help .vacancy.accordion .data a::after {
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+
+/* HELP END */
+
+
+/* TRAINING START */
+
+    .training_procent {
+        font-size: 36px;
+    }
+    .training_wrap {
+        padding: 20px;
+    }
+    .training1 .training_wrap,
+    .training2 .training_wrap {
+        flex-direction: column;
+        padding-top: 90px;
+    }
+    .training1 .training_quote,
+    .training2 .training_quote {
+        position: absolute;
+        top: 20px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .training8 .training_link,
+    .training9 .training_link {
+        width: 100%;
+        height: 50px;
+    }
+    .training_author-photo {
+        width: 60px;
+        height: 66px;
+        margin-right: 17px;
+    }
+    .training6 .training_info {
+        margin-left: 0;
+    }
+
+
+/* TRAINING END */
+
+
+/* BLOG-NEW START */
+
+    .blog-search .title {
+        font-size: 22px;
+    }
+
+/* BLOG-NEW END */
+
+
+
+/* BEFORE_AFTER START */
+
+    .before-block_wrapper {
+        padding: 10px;
+        border-radius: 10px;
+    } 
+    .media-control.media-play {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .way .icon_start, 
+    .way .icon_end {
+        width: 22px;
+        height: 22px;
+    }
+    .before_after .way .line {
+        height: 140px;
+        width: 2px;
+    }
+    .before_after .way {
+        transform: translateY(-48px);
+    }
+    .before-block {
+        width: calc(100% - 33px);
+        margin-right: 33px;
+    }
+
+
+/* BEFORE_AFTER END */
+
+
+
+
+}
