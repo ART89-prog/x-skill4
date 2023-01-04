@@ -1,0 +1,16 @@
+
+
+
+.photo-gallery {
+    margin-top: 2rem;
+}
+.photo-gallery > div {
+    columns: 3;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+}
+.photo-gallery img{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
