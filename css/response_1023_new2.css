@@ -137,4 +137,22 @@
     }
 
 
+    .interactive .image .info {
+        top: calc(100% - 1px);
+        right: 0;
+        left: 0;
+        width: 100%;
+        transform: none;
+        box-shadow: 0 5px 24px rgb(0 0 0 / 50%);
+        border-radius: 0 0 15px 15px;
+    }
+    .interactive .image .info:before {
+        display: none;
+    }
+    .interactive .image .item2 {
+        top: 28%;
+        left: 79%;
+    }
+
+
 }

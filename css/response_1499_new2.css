@@ -1,0 +1,31 @@
+@media print,
+(max-width: 1499px) {
+
+    .interactive .image .info {
+        padding: 20px 40px 20px 20px;
+        width: 340px;
+    }
+    .interactive .image .info .name {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .interactive .image .info .desc {
+        font-size: 16px;
+        line-height: 136%;
+    }
+    .interactive .image .info3 {
+        top: 40%;
+        left: calc(44% + 36px);
+    }
+    .interactive .image .info2 {
+        top: 18%;
+        left: calc(67% + 36px);
+    }
+    .interactive .image .info1 {
+        top: 17%;
+        left: calc(39% + 36px);
+    }
+
+
+}

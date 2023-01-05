@@ -129,6 +129,28 @@
     }
 
 
+    .interactive .image .item1 {
+        top: 50%;
+        left: 23%;
+    }
+    .interactive .image .info1 {
+        top: 16%;
+        left: calc(5% + 42px);
+    }
+    .interactive .image .item2 {
+        top: 46%;
+        left: 67%;
+    }
+    .interactive .image .info2 {
+        top: 13%;
+        left: calc(49% + 42px);
+    }
+    .interactive .image .info3 {
+        top: 35%;
+        left: calc(40% + 40px);
+    }
+
+
 
 
 }
