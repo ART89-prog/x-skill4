@@ -94,8 +94,15 @@
     margin-bottom: 48px;
     border-radius: 20px;
 }
+.photo-gallery_img {
+    border-radius: 20px;
+    object-fit: cover;
+}
 .photo-gallery_column {
     margin-bottom: 48px;
+}
+.has-image[data-image-fit=contain] .fancybox__image {
+    border-radius: 20px;
 }
 
 
@@ -565,6 +572,7 @@
 /* first-section2 */
 .first-section2 {
     position: relative;
+    padding-bottom: 138px;
 }
 .first-section2::before {
     position: absolute;
@@ -576,9 +584,30 @@
     right: 0;
     z-index: -1;
 }
+.first-section2 .first-section_img:not(.bg) {
+    display: block;
+    width: 860px;
+    height: 474px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 0px;
+}
+.first-section2 .first-section_img .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 131px;
+    width: 691px;
+    height: 622px;
+    pointer-events: none;
+}
+.first-section_info {
+    width: calc(100% - 870px);
+}
 
 
 
+/* interactive */
 .interactive {
     background: linear-gradient(287.57deg, #DCF5F9 5.49%, rgba(220, 245, 249, 0) 110.89%);
     padding: 90px 0;
@@ -594,4 +623,25 @@
     height: auto;
 }
 
+
+
+
+.roles_item-box .audio_media {
+    margin-top: 42px;
+    padding: 27px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 9.04269px 54.2561px rgba(38, 45, 118, 0.08);
+    border-radius: 18px;
+    width: 100%;
+}
+.roles_item-box .media-control.media-play {
+    width: 55px;
+    height: 55px;
+}
+.roles_item-box .media-play-symbol {
+    width: 20px;
+    height: 23px;
+    fill: #fff;
+    margin-left: 4px;
+}
 

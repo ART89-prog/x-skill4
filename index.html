@@ -28,6 +28,7 @@
 
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/media_player.css">
+		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/styles.css" async>
 		<link rel="stylesheet" href="css/styles_new.css" async>	
 		<link rel="stylesheet" href="css/styles_new2.css" async>		
@@ -1140,42 +1141,42 @@
 						</div>
 						<div class="photo-gallery">
 							<div class="photo-gallery_column">
-							   <a data-fancybox="gallery" class="photo-gallery_img">
+							   <a data-fancybox="gallery" href="images/image/photogallery1.jpg" class="photo-gallery_img">
 								  <img src="images/image/photogallery1.jpg" alt="">
 							   </a>
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery2.jpg" alt="">
-							   </div>
+							   <a data-fancybox="gallery" href="images/image/photogallery2.jpg" class="photo-gallery_img">
+								<img src="images/image/photogallery2.jpg" alt="">
+							 </a>
 							</div>
 							<div class="photo-gallery_column">
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery3.jpg" alt="">
-							   </div>
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery4.jpg" alt="">
-							   </div>
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery5.jpg" alt="">
-							   </div>
+							    <a data-fancybox="gallery" href="images/image/photogallery3.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery3.jpg" alt="">
+								</a>
+								<a data-fancybox="gallery" href="images/image/photogallery4.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery4.jpg" alt="">
+								</a>
+								<a data-fancybox="gallery" href="images/image/photogallery5.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery5.jpg" alt="">
+								</a>
 							</div>
 							<div class="photo-gallery_column">
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery6.jpg" alt="">
-							   </div>
-							   <div class="photo-gallery_img">
-								  <img src="images/image/photogallery7.jpg" alt="">
-							   </div>
+								<a data-fancybox="gallery" href="images/image/photogallery6.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery6.jpg" alt="">
+								</a>
+								<a data-fancybox="gallery" href="images/image/photogallery7.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery7.jpg" alt="">
+								</a>
 							</div>
 							<div class="photo-gallery_column">
-								<div class="photo-gallery_img">
-								   <img src="images/image/photogallery8.jpg" alt="">
-								</div>
-								<div class="photo-gallery_img">
-								   <img src="images/image/photogallery9.jpg" alt="">
-								</div>
-								<div class="photo-gallery_img">
-								   <img src="images/image/photogallery10.jpg" alt="">
-								</div>
+								<a data-fancybox="gallery" href="images/image/photogallery8.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery8.jpg" alt="">
+								</a>
+								<a data-fancybox="gallery" href="images/image/photogallery9.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery9.jpg" alt="">
+								</a>
+								<a data-fancybox="gallery" href="images/image/photogallery10.jpg" class="photo-gallery_img">
+									<img src="images/image/photogallery10.jpg" alt="">
+								</a>
 							</div>
 						</div>
 					</div>
@@ -1391,6 +1392,42 @@
 							</li>							
 						</ul>
 					</marquee>
+					<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
+						<ul>							
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Доведение знаний до удалённых сотрудников</span>
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Уменьшение ошибок, брака</span>
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Понижение стоимости обучения новичков</span>
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Тестирование сотрудников</span> 
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Проверка и контроль знаний</span> 
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Проверка и контроль знаний</span>
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Уменьшение ошибок, брака</span>
+							</li>
+							<li>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+								<span>Уменьшение ошибок, брака</span>
+							</li>							
+						</ul>
+					</marquee>
 				</section>
 
 
@@ -1549,34 +1586,43 @@
 										<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
 										<span>С большей вероятностью останется работать и научится лучше, быстрее начнет зарабатывать</span>
 									</div>	
-								</div>
-							
-							
+								</div>						
 								<div class="audio_media">											
 									<audio controls src="images/t-rex-roar.mp3"></audio>
 								</div>
 							</div>	
 						
-							<div class="roles_item">
-								<div class="roles_item-thumb">
-									<img src="images/image/roles2.jpg" alt="">
+							<div class="roles_item-box">
+								<div class="roles_item">
+									<div class="roles_item-thumb">
+										<img src="images/image/roles2.jpg" alt="">
+									</div>
+									<div class="roles_item-title">Наш актер</div>
+									<div class="roles_item-text">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+										<span>Будут распространять лучшие практики, будут развиваться и работать проще/лучше</span>
+									</div>	
+								</div>						
+								<div class="audio_media">											
+									<audio controls src="images/t-rex-roar.mp3"></audio>
 								</div>
-								<div class="roles_item-title">Наш актер</div>
-								<div class="roles_item-text">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
-									<span>Будут распространять лучшие практики, будут развиваться и работать проще/лучше</span>
+							</div>	
+
+							<div class="roles_item-box">
+								<div class="roles_item">
+									<div class="roles_item-thumb">
+										<img src="images/image/roles3.jpg" alt="">
+									</div>
+									<div class="roles_item-title">Ваш сотрудник</div>
+									<div class="roles_item-text">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
+										<span>Повысится качество обслуживания, так как появятся стандарты работы</span>
+									</div>	
+								</div>						
+								<div class="audio_media">											
+									<audio controls src="images/t-rex-roar.mp3"></audio>
 								</div>
-							</div>
-							<div class="roles_item">
-								<div class="roles_item-thumb">
-									<img src="images/image/roles3.jpg" alt="">
-								</div>
-								<div class="roles_item-title">Ваш сотрудник</div>
-								<div class="roles_item-text">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
-									<span>Повысится качество обслуживания, так как появятся стандарты работы</span>
-								</div>
-							</div>
+							</div>	
 						</div>	
 					</div>
 				</section>
@@ -1627,6 +1673,7 @@
 		<script src="js/jquery.spincrement.js"></script>
 		<script src="js/media-player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 		<script src="js/scripts_new.js"></script>

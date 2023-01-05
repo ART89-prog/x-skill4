@@ -46,6 +46,10 @@
         margin-left: 0px;
         padding: 87px 20px 30px;
     }
+    .roles_item-thumb {
+        width: 88px;
+        height: 88px;
+    }
 
 
     .unit_items > * {

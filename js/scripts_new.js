@@ -15,12 +15,6 @@ $(() => {
 
 
 
-    Fancybox.bind("[data-fancybox]", {
-        // Your options go here
-      });
-
-
-
 	if ('function' === typeof MediaPlayer) {
 		[].forEach.call(document.querySelectorAll('audio[controls]'), function (media) {
 			player = media.player = new MediaPlayer(media, {

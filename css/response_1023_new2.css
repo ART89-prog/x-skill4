@@ -116,5 +116,25 @@
     }
 
 
+    .first-section2 .first-section_img:not(.bg) {
+        width: 373px;
+        height: 278px;
+    }
+    .first-section2 .first-section_img .bg {
+        top: 0;
+        left: 44px;
+        width: 331px;
+        height: 301px;
+    }
+    .first-section2 {
+        padding-bottom: 70px;
+    }
+    .first-section2::before {
+        width: 651px;
+        height: 709px;
+        top: 0;
+        right: 0;
+    }
+
 
 }
