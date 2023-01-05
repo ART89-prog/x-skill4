@@ -152,5 +152,24 @@
 
 
 
+    .improvement_item::after {
+        display: none;
+    }
+    .improvement_item:nth-child(1) {
+        margin-top: 0px;
+    }
+    .improvement_item:nth-child(2) {
+        margin-top: 0px;
+    }
+    .improvement_item:nth-child(3) {
+        margin-top: 0px;
+    }
+    .improvement_item-number {
+        font-size: 170px;
+        top: -90px;
+    }
+
+
+
 
 }

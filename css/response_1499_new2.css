@@ -1,3 +1,5 @@
+
+
 @media print,
 (max-width: 1499px) {
 
@@ -25,6 +27,45 @@
     .interactive .image .info1 {
         top: 17%;
         left: calc(39% + 36px);
+    }
+
+
+    .improvement_items::before {
+        display: none;
+    }
+    .improvement_item:nth-child(1) {
+        margin-top: 70px;
+        margin-left: auto;
+    }
+    .improvement_item:nth-child(2) {
+        margin-top: 70px;
+    }
+    .improvement_item:nth-child(3) {
+        margin-top: 70px;
+    }
+    .improvement_item::after {
+        top: -70px;
+    }
+    .improvement .block_head {
+        max-width: 100%;
+    }
+    .improvement_item-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .improvement_item-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .improvement_item-number {
+        font-size: 226px;
+    }
+    .improvement_items  {
+        margin-left: -50px;
+    }
+    .improvement_items > * {
+        width: calc(100%/3 - 50px);
+        margin-left: 50px;
     }
 
 

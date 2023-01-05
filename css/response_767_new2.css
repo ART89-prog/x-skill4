@@ -111,6 +111,31 @@
     .graphics_item-title span {
         color: #16A3B9;
     }
+
+
+
+    .improvement_items  {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        margin-bottom: -30px;
+    }
+    .improvement_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .improvement_item-number {
+        font-size: 77px;
+        top: -111px;
+    }
+    .improvement_item-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .improvement_item-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
  
 }
 

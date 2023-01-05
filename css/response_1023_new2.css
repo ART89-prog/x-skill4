@@ -155,4 +155,15 @@
     }
 
 
+
+    .improvement_item-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .improvement_item-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+
 }
