@@ -37,6 +37,26 @@
         margin-bottom: 16px;
     }
 
+
+    .roles_items {
+        margin-left: 0px;
+    }
+    .roles_items > * {
+        width: 100%;
+        margin-left: 0px;
+        padding: 87px 20px 30px;
+    }
+
+
+    .unit_items > * {
+        width: 100%;
+        margin-left: 0px;
+        padding: 17px;
+    }
+    .unit_items {
+        margin-left: 0px;
+    }
+
  
 }
 

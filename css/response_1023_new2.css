@@ -22,4 +22,68 @@
     }
 
 
+    .professionals_top-avatar {
+        width: 110px;
+        height: 110px;
+    }
+    .professionals_top-avatar:nth-child(2) {
+        margin-left: -20px;
+    }
+    .professionals_top-avatar:nth-child(3) {
+        margin-left: -20px;
+    }
+
+
+    .roles_item-title {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .roles_item-text .icon {
+        width: 28px;
+        height: 28px;
+    }
+    .roles_item-text {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .roles_items {
+        margin-left: -20px;
+        margin-bottom: -50px;
+    }
+    .roles_items > * {
+        width: calc(100%/2 - 20px);
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+
+    .unit_item-title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+    .unit_item-text {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .unit_items > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .unit_items {
+        margin-left: -20px;
+        flex-wrap: wrap;
+    }
+    .unit_item-image {
+        width: 130px;
+        height: 130px;        
+    }
+    .unit_item-image:nth-child(2) {
+        margin-left: -40px;
+    }
+    .unit_item-image:nth-child(3) {
+        margin-left: -40px;
+    }
+
+
 }

@@ -30,4 +30,52 @@
         margin-bottom: 24px;
     }
 
+
+    .roles_item-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .roles_item-text .icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 13px;
+    }
+    .roles_item-text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    .roles_items {
+        margin-left: -30px;
+    }
+    .roles_items > * {
+        width: calc(100%/3 - 30px);
+        margin-left: 30px;
+        padding: 110px 20px 40px 20px;
+    }
+    .roles_item-thumb {
+        left: 20px;
+    }
+
+
+    .unit_item-title {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .unit_item-text {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .unit_items > * {
+        width: calc(100%/3 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .unit_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+
 }
