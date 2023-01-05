@@ -1,0 +1,47 @@
+@media print, (max-width: 767px) {
+
+    .before-after_items {
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .before-after_items > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .before-after_item-list li {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 52px;
+    }
+    .before-after_item-list li + li {
+        margin-top: 12px;
+    }
+    .before-after_item-title {
+        font-size: 23px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    .before-after_item:first-child {
+        margin-bottom: 30px;
+    }
+
+
+    .photo-gallery {
+        columns: 2;
+        gap: 16px;
+    }
+    .photo-gallery img {
+        margin-bottom: 16px;
+    }
+    .photo-gallery_column {
+        margin-bottom: 16px;
+    }
+
+ 
+}
+
+
+
+
+
+

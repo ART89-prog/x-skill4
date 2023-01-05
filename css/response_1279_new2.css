@@ -1,0 +1,33 @@
+
+@media print,
+(max-width: 1279px) {
+
+    .before-after_items {
+        margin-left: -30px;
+    }
+    .before-after_items > * {
+        width: calc(100%/2 - 30px);
+        margin-left: 30px;
+    }
+    .before-after_item-title {
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+    .before-after_item-info {
+        padding: 20px;
+    }
+
+
+    .photo-gallery {
+        columns: 4;
+        gap: 24px;
+    }
+    .photo-gallery img {
+        margin-bottom: 24px;
+    }
+    .photo-gallery_column {
+        margin-bottom: 24px;
+    }
+
+}

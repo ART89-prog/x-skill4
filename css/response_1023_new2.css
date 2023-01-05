@@ -1,0 +1,25 @@
+@media print,
+(max-width: 1023px) {
+
+    .before-after_item-list li .icon {
+        width: 36px;
+        height: 36px;
+    }
+    .before-after_item-info {
+        padding: 15px;
+    }
+
+
+    .photo-gallery {
+        columns: 3;
+        gap: 24px;
+    }
+    .photo-gallery img {
+        margin-bottom: 24px;
+    }
+    .photo-gallery_column {
+        margin-bottom: 24px;
+    }
+
+
+}

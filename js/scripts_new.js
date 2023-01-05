@@ -14,6 +14,12 @@ $(() => {
     });
 
 
+
+    Fancybox.bind("[data-fancybox]", {
+        // Your options go here
+      });
+
+
     $(document).on('change', '.error', function() {
         $(this).removeClass('error');
     })
