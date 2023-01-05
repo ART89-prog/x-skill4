@@ -622,6 +622,70 @@
     width: 100%;
     height: auto;
 }
+.interactive .image {
+    position: relative;
+}
+.interactive .image .item {
+    position: absolute;
+    z-index: 9;
+    top: 44%;
+    left: 53%;
+}
+.interactive .image .btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: background .2s linear;
+    border-radius: 50%;
+    background: #fff;
+}
+.interactive .image .btn:before {
+    position: absolute;
+    z-index: -1;
+    top: -11px;
+    left: -11px;
+    display: block;
+    width: 72px;
+    height: 72px;
+    content: '';
+    transition: background .2s linear;
+    border-radius: 50%;
+    background: #16A3B9;
+}
+.interactive .image .btn span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.interactive .image .btn span:before, 
+.interactive .image .btn span:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: auto;
+    content: '';
+    transition: background .2s linear;
+    border-radius: 3px;
+    background: #16A3B9;
+}
+.interactive .image .btn span:after {
+    width: 4px;
+    height: 25px;
+}
+.interactive .image .item.active .btn:before {
+    background: #BCE01A;
+}
+.interactive .image .item.active .btn span:before, 
+.interactive .image .item.active .btn span:after {
+    background: #BCE01A;
+}
 
 
 
