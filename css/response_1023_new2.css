@@ -119,6 +119,7 @@
     .first-section2 .first-section_img:not(.bg) {
         width: 373px;
         height: 278px;
+        margin: 20px auto;
     }
     .first-section2 .first-section_img .bg {
         top: 0;
@@ -197,6 +198,26 @@
         height: auto;
         margin-left: 0;
     }
+
+    .before-after,
+    .photogallery,
+    .clients,
+    .professionals,
+    .roles,
+    .unit,
+    .launch,
+    .privilege,
+    .first-section,
+    .graphics,
+    .improvement,
+    .first-section2,
+    .first-section3,
+    .first-section4,
+    .interactive {
+        padding: 50px 0;
+    }
+
+
 
 
 }

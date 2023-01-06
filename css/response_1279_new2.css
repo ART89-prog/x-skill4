@@ -194,11 +194,28 @@
         margin-left: 50px;
     }
 
-
     .first-section4 .first-section_img:not(.bg) {
         width: 892px;
         height: auto;
         margin-left: 50px;
+    }
+
+    .before-after,
+    .photogallery,
+    .clients,
+    .professionals,
+    .roles,
+    .unit,
+    .launch,
+    .privilege,
+    .first-section,
+    .graphics,
+    .improvement,
+    .first-section2,
+    .first-section3,
+    .first-section4,
+    .interactive {
+        padding: 70px 0;
     }
 
 

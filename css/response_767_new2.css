@@ -104,7 +104,7 @@
     .graphics_item-title {
         display: block;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 26px;
         line-height: 150%;
         color: #4B4B4B;
         white-space: nowrap;
@@ -140,6 +140,10 @@
         line-height: 22px;
     }
 
+    .first-section2 .first-section_img {
+        margin: 20px auto;
+    }
+
 
     .first-section3 .first-section_img .bg {
         position: absolute;
@@ -160,13 +164,32 @@
         width: 468px;
         height: 348px;
         max-width: 100%;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .first-section3 .first-section_img .bg {
         top: -11px;
         left: 0;
         width: 417px;
         height: 369px;
+    }
+
+    .before-after,
+    .photogallery,
+    .clients,
+    .professionals,
+    .roles,
+    .unit,
+    .launch,
+    .privilege,
+    .first-section,
+    .graphics,
+    .improvement,
+    .first-section2,
+    .first-section3,
+    .first-section4,
+    .interactive {
+        padding: 40px 0;
     }
 
 
