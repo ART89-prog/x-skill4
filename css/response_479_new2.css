@@ -1,0 +1,20 @@
+@media print,
+(max-width: 479px) {
+
+    .first-section3 .first-section_img .bg {
+        top: -11px;
+        left: 0;
+        width: 370px;
+        height: 289px;
+    }
+    .first-section3 .first-section_img:not(.bg) {
+        width: 435px;
+        height: 310px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+}

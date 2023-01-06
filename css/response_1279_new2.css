@@ -51,11 +51,17 @@
     }
     .roles_items > * {
         width: calc(100%/3 - 30px);
-        margin-left: 30px;
-        padding: 110px 20px 40px 20px;
+        margin-left: 30px;        
+    }
+    .roles_item {
+        padding: 90px 20px 40px 20px;
     }
     .roles_item-thumb {
         left: 20px;
+    }
+    .roles_item-box .audio_media {
+        margin-top: 25px;
+        padding: 20px;
     }
 
 
@@ -167,6 +173,32 @@
     .improvement_item-number {
         font-size: 170px;
         top: -90px;
+    }
+
+
+    .first-section3 .first-section_img .bg {
+        position: absolute;
+        z-index: -1;
+        top: -101px;
+        left: 0;
+        width: 706px;
+        height: 581px;
+        pointer-events: none;
+    }
+    .first-section3 .first-section_img:not(.bg) {
+        display: block;
+        width: 842px;
+        height: 510px;
+        max-width: 100%;
+        position: relative;
+        margin-left: 50px;
+    }
+
+
+    .first-section4 .first-section_img:not(.bg) {
+        width: 892px;
+        height: auto;
+        margin-left: 50px;
     }
 
 
