@@ -213,8 +213,25 @@
     .first-section2,
     .first-section3,
     .first-section4,
-    .interactive {
+    .interactive,
+    .result {
         padding: 50px 0;
+    }
+
+    .result_items {
+        flex-wrap: wrap;
+    }
+    .result_items > * {
+        width: calc(100%/2 - 15px);
+    }
+    .result_item-title {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 20px;
+    }
+    .result_item-text {
+        font-size: 20px;
+        margin-top: 10px;
     }
 
 

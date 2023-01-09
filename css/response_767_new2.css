@@ -188,8 +188,27 @@
     .first-section2,
     .first-section3,
     .first-section4,
-    .interactive {
+    .interactive,
+    .result {
         padding: 40px 0;
+    }
+
+    .result_items {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .result_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+    .result_item-title {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 15px;
+    }
+    .result_item-text {
+        font-size: 16px;
+        margin-top: 10px;
     }
 
 

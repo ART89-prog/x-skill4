@@ -214,10 +214,36 @@
     .first-section2,
     .first-section3,
     .first-section4,
-    .interactive {
+    .interactive
+    .result {
         padding: 70px 0;
     }
 
+    .result_items > * {
+        width: calc(100%/4 - 15px);
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background: linear-gradient(285.66deg, #DCF5F9 2.81%, rgba(220, 245, 249, 0) 111.19%);
+        border-radius: 20px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .result_items {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+    .result_item-title {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 20px;
+    }
+    .result_item-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
 
 
 
